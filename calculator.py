@@ -9,7 +9,6 @@ def subtraction(a, b):
 def division(a, b):
         z=a / b
         return z
-    
 
 def multiplication(a, b):
         z=a * b
