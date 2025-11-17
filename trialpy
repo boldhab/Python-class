@@ -1,0 +1,8 @@
+def divide(numerator, denominator, /):
+    return numerator / denominator
+
+# Positional arguments only
+print(divide(10, 2))  # Output: 5.0
+
+# Using keywords results in an error
+# print(divide(numerator=10, denominator=2))  # TypeError: must be positional arguments
